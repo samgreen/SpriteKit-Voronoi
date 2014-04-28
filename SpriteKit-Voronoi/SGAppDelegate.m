@@ -8,10 +8,28 @@
 
 #import "SGAppDelegate.h"
 
+#import "Delaunay.h"
+#import "DelaunayVoronoi.h"
+
+#import <dispatch/dispatch.h>
+
 @implementation SGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSMutableArray *points = [@[] mutableCopy];
+    for (NSUInteger x = 0; x < 100; x++) {
+        CGPoint point = CGPointMake(arc4random_uniform(100), 0);
+        [points addObject:[NSValue valueWithCGPoint:point]];
+    }
+    
+    uint64_t n = dispatch_benchmark(1000, ^{
+        @autoreleasepool {
+            DelaunayVoronoi *voronoi = [DelaunayVoronoi voronoi:points plotBounds:CGRectMake(0, 0, 100, 100)];
+        }
+    });
+    printf("-[DelaunayVoronoi voronoi: plotBounds:] x 10,000 runs : %llu ns - %llu ms - %f s", n, n / 1000000, (double)((double)n / 1000000) / 1000);
+    
     // Override point for customization after application launch.
     return YES;
 }

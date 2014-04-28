@@ -24,6 +24,19 @@
 		77565940190DD6AB00748AA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7756591B190DD6AB00748AA6 /* UIKit.framework */; };
 		77565948190DD6AB00748AA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77565946190DD6AB00748AA6 /* InfoPlist.strings */; };
 		7756594A190DD6AB00748AA6 /* SpriteKit_VoronoiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565949190DD6AB00748AA6 /* SpriteKit_VoronoiTests.m */; };
+		77565971190DD73000748AA6 /* DelaunayEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565956190DD73000748AA6 /* DelaunayEdge.m */; };
+		77565972190DD73000748AA6 /* DelaunayEdgeList.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565958190DD73000748AA6 /* DelaunayEdgeList.m */; };
+		77565973190DD73000748AA6 /* DelaunayEdgeReorderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756595A190DD73000748AA6 /* DelaunayEdgeReorderer.m */; };
+		77565974190DD73000748AA6 /* DelaunayHalfEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756595C190DD73000748AA6 /* DelaunayHalfEdge.m */; };
+		77565975190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756595E190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.m */; };
+		77565976190DD73000748AA6 /* DelaunayLineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565960190DD73000748AA6 /* DelaunayLineSegment.m */; };
+		77565978190DD73000748AA6 /* DelaunayPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565964190DD73000748AA6 /* DelaunayPolygon.m */; };
+		77565979190DD73000748AA6 /* DelaunaySite.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565966190DD73000748AA6 /* DelaunaySite.m */; };
+		7756597A190DD73000748AA6 /* DelaunaySiteList.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565968190DD73000748AA6 /* DelaunaySiteList.m */; };
+		7756597B190DD73000748AA6 /* DelaunayVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756596A190DD73000748AA6 /* DelaunayVertex.m */; };
+		7756597C190DD73000748AA6 /* DelaunayVoronoi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756596C190DD73000748AA6 /* DelaunayVoronoi.m */; };
+		7756597D190DD73000748AA6 /* NSArray+Delaunay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7756596E190DD73000748AA6 /* NSArray+Delaunay.m */; };
+		7756597E190DD73000748AA6 /* NSMutableArray+Delaunay.m in Sources */ = {isa = PBXBuildFile; fileRef = 77565970190DD73000748AA6 /* NSMutableArray+Delaunay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +73,35 @@
 		77565945190DD6AB00748AA6 /* SpriteKit-VoronoiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKit-VoronoiTests-Info.plist"; sourceTree = "<group>"; };
 		77565947190DD6AB00748AA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77565949190DD6AB00748AA6 /* SpriteKit_VoronoiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKit_VoronoiTests.m; sourceTree = "<group>"; };
+		77565954190DD73000748AA6 /* DelaunayCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayCoordinate.h; sourceTree = "<group>"; };
+		77565955190DD73000748AA6 /* DelaunayEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayEdge.h; sourceTree = "<group>"; };
+		77565956190DD73000748AA6 /* DelaunayEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayEdge.m; sourceTree = "<group>"; };
+		77565957190DD73000748AA6 /* DelaunayEdgeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayEdgeList.h; sourceTree = "<group>"; };
+		77565958190DD73000748AA6 /* DelaunayEdgeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayEdgeList.m; sourceTree = "<group>"; };
+		77565959190DD73000748AA6 /* DelaunayEdgeReorderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayEdgeReorderer.h; sourceTree = "<group>"; };
+		7756595A190DD73000748AA6 /* DelaunayEdgeReorderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayEdgeReorderer.m; sourceTree = "<group>"; };
+		7756595B190DD73000748AA6 /* DelaunayHalfEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayHalfEdge.h; sourceTree = "<group>"; };
+		7756595C190DD73000748AA6 /* DelaunayHalfEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayHalfEdge.m; sourceTree = "<group>"; };
+		7756595D190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayHalfEdgePriorityQueue.h; sourceTree = "<group>"; };
+		7756595E190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayHalfEdgePriorityQueue.m; sourceTree = "<group>"; };
+		7756595F190DD73000748AA6 /* DelaunayLineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayLineSegment.h; sourceTree = "<group>"; };
+		77565960190DD73000748AA6 /* DelaunayLineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayLineSegment.m; sourceTree = "<group>"; };
+		77565961190DD73000748AA6 /* DelaunayOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayOrientation.h; sourceTree = "<group>"; };
+		77565963190DD73000748AA6 /* DelaunayPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayPolygon.h; sourceTree = "<group>"; };
+		77565964190DD73000748AA6 /* DelaunayPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayPolygon.m; sourceTree = "<group>"; };
+		77565965190DD73000748AA6 /* DelaunaySite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunaySite.h; sourceTree = "<group>"; };
+		77565966190DD73000748AA6 /* DelaunaySite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunaySite.m; sourceTree = "<group>"; };
+		77565967190DD73000748AA6 /* DelaunaySiteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunaySiteList.h; sourceTree = "<group>"; };
+		77565968190DD73000748AA6 /* DelaunaySiteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunaySiteList.m; sourceTree = "<group>"; };
+		77565969190DD73000748AA6 /* DelaunayVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayVertex.h; sourceTree = "<group>"; };
+		7756596A190DD73000748AA6 /* DelaunayVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayVertex.m; sourceTree = "<group>"; };
+		7756596B190DD73000748AA6 /* DelaunayVoronoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelaunayVoronoi.h; sourceTree = "<group>"; };
+		7756596C190DD73000748AA6 /* DelaunayVoronoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelaunayVoronoi.m; sourceTree = "<group>"; };
+		7756596D190DD73000748AA6 /* NSArray+Delaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Delaunay.h"; sourceTree = "<group>"; };
+		7756596E190DD73000748AA6 /* NSArray+Delaunay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Delaunay.m"; sourceTree = "<group>"; };
+		7756596F190DD73000748AA6 /* NSMutableArray+Delaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Delaunay.h"; sourceTree = "<group>"; };
+		77565970190DD73000748AA6 /* NSMutableArray+Delaunay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Delaunay.m"; sourceTree = "<group>"; };
+		77565981190DD7D900748AA6 /* Delaunay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Delaunay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +163,7 @@
 		7756591F190DD6AB00748AA6 /* SpriteKit-Voronoi */ = {
 			isa = PBXGroup;
 			children = (
+				77565953190DD71600748AA6 /* Voronoi */,
 				77565928190DD6AB00748AA6 /* SGAppDelegate.h */,
 				77565929190DD6AB00748AA6 /* SGAppDelegate.m */,
 				7756592B190DD6AB00748AA6 /* Main.storyboard */,
@@ -162,6 +205,58 @@
 				77565946190DD6AB00748AA6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77565953190DD71600748AA6 /* Voronoi */ = {
+			isa = PBXGroup;
+			children = (
+				77565981190DD7D900748AA6 /* Delaunay.h */,
+				77565980190DD75500748AA6 /* Categories */,
+				7756597F190DD75100748AA6 /* Models */,
+			);
+			name = Voronoi;
+			sourceTree = "<group>";
+		};
+		7756597F190DD75100748AA6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77565954190DD73000748AA6 /* DelaunayCoordinate.h */,
+				77565955190DD73000748AA6 /* DelaunayEdge.h */,
+				77565956190DD73000748AA6 /* DelaunayEdge.m */,
+				77565957190DD73000748AA6 /* DelaunayEdgeList.h */,
+				77565958190DD73000748AA6 /* DelaunayEdgeList.m */,
+				77565959190DD73000748AA6 /* DelaunayEdgeReorderer.h */,
+				7756595A190DD73000748AA6 /* DelaunayEdgeReorderer.m */,
+				7756595B190DD73000748AA6 /* DelaunayHalfEdge.h */,
+				7756595C190DD73000748AA6 /* DelaunayHalfEdge.m */,
+				7756595D190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.h */,
+				7756595E190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.m */,
+				7756595F190DD73000748AA6 /* DelaunayLineSegment.h */,
+				77565960190DD73000748AA6 /* DelaunayLineSegment.m */,
+				77565961190DD73000748AA6 /* DelaunayOrientation.h */,
+				77565963190DD73000748AA6 /* DelaunayPolygon.h */,
+				77565964190DD73000748AA6 /* DelaunayPolygon.m */,
+				77565965190DD73000748AA6 /* DelaunaySite.h */,
+				77565966190DD73000748AA6 /* DelaunaySite.m */,
+				77565967190DD73000748AA6 /* DelaunaySiteList.h */,
+				77565968190DD73000748AA6 /* DelaunaySiteList.m */,
+				77565969190DD73000748AA6 /* DelaunayVertex.h */,
+				7756596A190DD73000748AA6 /* DelaunayVertex.m */,
+				7756596B190DD73000748AA6 /* DelaunayVoronoi.h */,
+				7756596C190DD73000748AA6 /* DelaunayVoronoi.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		77565980190DD75500748AA6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7756596D190DD73000748AA6 /* NSArray+Delaunay.h */,
+				7756596E190DD73000748AA6 /* NSArray+Delaunay.m */,
+				7756596F190DD73000748AA6 /* NSMutableArray+Delaunay.h */,
+				77565970190DD73000748AA6 /* NSMutableArray+Delaunay.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +358,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77565979190DD73000748AA6 /* DelaunaySite.m in Sources */,
+				7756597A190DD73000748AA6 /* DelaunaySiteList.m in Sources */,
+				77565974190DD73000748AA6 /* DelaunayHalfEdge.m in Sources */,
+				7756597D190DD73000748AA6 /* NSArray+Delaunay.m in Sources */,
 				77565933190DD6AB00748AA6 /* SGMyScene.m in Sources */,
 				7756592A190DD6AB00748AA6 /* SGAppDelegate.m in Sources */,
+				77565978190DD73000748AA6 /* DelaunayPolygon.m in Sources */,
+				77565973190DD73000748AA6 /* DelaunayEdgeReorderer.m in Sources */,
+				77565976190DD73000748AA6 /* DelaunayLineSegment.m in Sources */,
 				77565930190DD6AB00748AA6 /* SGViewController.m in Sources */,
 				77565926190DD6AB00748AA6 /* main.m in Sources */,
+				77565975190DD73000748AA6 /* DelaunayHalfEdgePriorityQueue.m in Sources */,
+				7756597C190DD73000748AA6 /* DelaunayVoronoi.m in Sources */,
+				7756597B190DD73000748AA6 /* DelaunayVertex.m in Sources */,
+				7756597E190DD73000748AA6 /* NSMutableArray+Delaunay.m in Sources */,
+				77565971190DD73000748AA6 /* DelaunayEdge.m in Sources */,
+				77565972190DD73000748AA6 /* DelaunayEdgeList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +504,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpriteKit-Voronoi/SpriteKit-Voronoi-Prefix.pch";
 				INFOPLIST_FILE = "SpriteKit-Voronoi/SpriteKit-Voronoi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -410,6 +522,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpriteKit-Voronoi/SpriteKit-Voronoi-Prefix.pch";
 				INFOPLIST_FILE = "SpriteKit-Voronoi/SpriteKit-Voronoi-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system/introspection",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -475,6 +591,7 @@
 				7756594F190DD6AB00748AA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77565950190DD6AB00748AA6 /* Build configuration list for PBXNativeTarget "SpriteKit-VoronoiTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +600,7 @@
 				77565952190DD6AB00748AA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
